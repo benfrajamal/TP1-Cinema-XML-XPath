@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cinema>
+
+    <films>
+        <film id="F001" genre="Science-fiction" annee="2010">
+            <titre>Inception</titre>
+            <realisateur>Christopher Nolan</realisateur>
+            <duree>148</duree>
+        </film>
+
+        <film id="F002" genre="Romance" annee="1997">
+            <titre>Titanic</titre>
+            <realisateur>James Cameron</realisateur>
+            <duree>195</duree>
+        </film>
+
+        <film id="F003" genre="Science-fiction" annee="2009">
+            <titre>Avatar</titre>
+            <realisateur>James Cameron</realisateur>
+            <duree>162</duree>
+        </film>
+    </films>
+
+    <spectateurs>
+        <spectateur id="S001" actif="true">
+            <nom>Asma Ben Ali</nom>
+            <email>benaliasma@email.com</email>
+        </spectateur>
+
+        <spectateur id="S002" actif="true">
+            <nom>amal ben fraj</nom>
+            <email>benfrajamal09@email.com</email>
+        </spectateur>
+
+        <spectateur id="S003" actif="false">
+            <nom>Sarra ben ahmed</nom>
+            <email>benahmedsarra@email.com</email>
+        </spectateur>
+    </spectateurs>
+
+    <seances>
+        <seance id="SE001" film="F001">
+            <salle>1</salle>
+            <duree>148</duree>
+            <date>2026-11-01</date>
+            <heure>14:00:00</heure>
+        </seance>
+
+        <seance id="SE002" film="F002">
+            <salle>2</salle>
+            <duree>195</duree>
+            <date>2026-11-01</date>
+            <heure>17:00:00</heure>
+        </seance>
+
+        <seance id="SE003" film="F003">
+            <salle>1</salle>
+            <duree>162</duree>
+            <date>2026-11-02</date>
+            <heure>20:00:00</heure>
+        </seance>
+    </seances>
+
+</cinema>
